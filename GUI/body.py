@@ -40,7 +40,6 @@ class Application(Frame):
         for i in range(high_page):
             pdf.multi_cell(0, 5, num)
         pdf.output('createPDF.pdf', 'F')
-        open('createPDF.pdf','r')
 
     # print input
     def print_food(self):
